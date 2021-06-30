@@ -3,9 +3,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "jest --watchAll --verbose"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "vite": "^2.3.8"
+  },
+  "dependencies": {
+    "jest": "^27.0.6"
   }
 }
